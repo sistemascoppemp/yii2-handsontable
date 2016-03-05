@@ -1,0 +1,30 @@
+{
+    "name": "deesoft/yii2-handsontable",
+    "description": "Yii2 Handsontable widget",
+    "keywords": ["yii2", "handsontable", "excel"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/deesoft/yii2-tools/issues",
+        "source": "https://github.com/deesoft/yii2-tools"
+    },
+    "authors": [
+        {
+            "name": "Misbahul Munir",
+            "email": "misbahuldmunir@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "dee\\handsontable\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
